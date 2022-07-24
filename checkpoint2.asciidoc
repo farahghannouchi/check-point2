@@ -1,0 +1,96 @@
++*In[1]:*+
+[source, ipython3]
+----
+farah = input("Input your First Name : ")
+ghannouchi = input("Input your Last Name : ")
+print ("Hi " + ghannouchi + " " + farah)
+
+----
+
+
++*Out[1]:*+
+----
+Input your First Name : farah
+Input your Last Name : ghannouchi
+Hi ghannouchi farah
+----
+
+
++*In[2]:*+
+[source, ipython3]
+----
+
+n=int(input("Enter a number n: "))
+r=str(n)
+calculation=input("calculation is = ")
+import math
+result=n+int(r)
+result=input(5+55+555)
+----
+
+
++*Out[2]:*+
+----
+Enter a number n: 5
+calculation is = n+nn+nnn
+615:result of calculation
+----
+
+
++*In[4]:*+
+[source, ipython3]
+----
+n=int(input("Enter a number n: "))
+import math
+n = even or n = odd
+----
+
+
++*Out[4]:*+
+----
+
+      Input In [4]
+        n = even or n = odd
+            ^
+    SyntaxError: cannot assign to operator
+    
+
+----
+
+
++*In[6]:*+
+[source, ipython3]
+----
+n=int(input("Enter a number n: "))
+import math
+n = pair or odd
+----
+
+
++*Out[6]:*+
+----
+Enter a number n: 17
+
+
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    Input In [6], in <cell line: 3>()
+          1 n=int(input("Enter a number n: "))
+          2 import math
+    ----> 3 n = pair or odd
+    
+
+    NameError: name 'pair' is not defined
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+n=int(input("Enter a number n: "))
+import math
+n = pair or odd
+----
